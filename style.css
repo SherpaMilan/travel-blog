@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+  }
+  
+  .global-msg {
+    background: rgba(19, 115, 122, 0.712);
+    padding: 8px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+.btn{
+    background-color: orangered;
+    border:  1px solid rgba(255, 68, 0, 0.362);
+    padding: 5px 15px;
+    float: right;
+}
+
+
+
+
+
+
+  /* ===== global message */
+  
+  .gbl-content {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .gbl-content a {
+    color: white;
+  }
+  
+  /* ===== top menu */
+  .nav-bar {
+    background: rgba(81, 92, 55, 0.456);
+    color: white;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin-left: 16px;
+  }
+  
+  .menu ul li:hover {
+    background: orangered;
+    cursor: pointer;
+  }
+
+  /* hero section   */
+  .hero{
+      height: 70vh;
+      background: url(img/sherpa.jpg) 
+      no-repeat 
+      center center;
+      background-size: cover;
+
+      /* displaying flex  */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+  }
+
+.hero-content{
+    background-color: rgba(0, 0, 0, 0.196);
+    color:white;
+
+    /* for flex box  */
+    padding: 16px 32px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+
+    /* how much you want to see -> opacity use background color */
+
+
+}
+
+/* main content */
+
+.main{
+
+    display: flex;
+
+}
+
+.main-content{
+
+    /* background: red; */
+    width: 70%;
+}
+
+
+main article{
+
+    border: 1px solid silver;
+
+    /* 1 rem = 16px  */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px 5px rgba(33, 48, 12, 0.53);
+
+    /* flex  */
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+
+.art-img{
+max-width: 200px;
+margin-right: 20px;
+
+}
+
+.title{
+    font-size: 1.5rem ;
+    font-weight: bold;
+}
+
+article .btn {
+    float: right;
+}
+
+/* aside  */
+.side-links{
+    /* background-color: blue; */
+    width: 30%;
+    margin-top: 5.5rem;
+}
+
+
+
+
+
+.read-by-country{
+    background-color: rgba(56, 27, 84, 0.551);
+    padding: 3rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+
+
+}
+
+.read-by-year{
+    background: yellowgreen;
+    border-radius: 5px;
+    padding: 3rem;
+
+}
+
+
+
+
+
+/* footer section   */
+
+.footer{
+min-height: 50px;
+    background: black;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+
+/* recommendation section  */
+.recc{
+    margin-top: 5rem;
+    background: rgba(158, 93, 8, 0.563);
+    padding: 5rem 0;
+
+
+}
+
+.card-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    background: white;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px 5px rgba(137, 43, 226, 0.479);
+    margin-top: 3rem;
+}
+
+
+
+.card img{
+    height: 300px;
+    border-radius: 8px 8px 0 0 ;
+}
+
+.card .btn {
+    width: 100%;
+}
+
+
+.subscription {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    display: flex;
+     /* by default flex inlines all the contents /\ */
+     flex-direction: column;
+     align-items: center;
+
+}
