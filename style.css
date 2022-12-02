@@ -233,5 +233,95 @@ min-height: 50px;
      flex-direction: column;
      align-items: center;
 
+
+   }
+
+   /* media query  */
+   /* /* ipad between 768px and 1200px */
+
+   @media (max-width: 1200px){
+
+    .main{
+      display: flex;
+      flex-direction: column;
+    }
+   
+   
+    
+     
+             .side-links{
+               display: flex;
+               width: 100%;
+               justify-content: space-between;
+             }
+      
+             .read-by-country,.read-by-year{
+               width: 45%;
+             }
+      
+             .side-links ul{
+               list-style: none;
+               font-weight: bold;
+               text-decoration:underline ;
+               color: blueviolet;
+               line-height: 1.5rem;
+             }
+
+             .card {
+               width: 47%;
+             }
+            
+  
+            }
+     
+
+
+
+
+   
+
+   /* mobile lesss than 768px */
+
+   /* desktop and larger 1200px  */
+   @media (max-width: 768px){
+    .global-msg{
+      display: none;
+
+      
+    }
+
+
+main article{
+
+
+
+  /* flex  */
+  display: flex;
+  flex-wrap: column;
+  
 }
+.art-img{
+  max-width: 100%; 
+  margin-bottom: 1rem;
+}
+ .title{
+   margin-bottom: 1rem;
+ }
+
+ .btn{
+width: 100%;
+padding: 5px 15px;
+}
+.card{
+  width: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+  }
+   /* ipad between 768px to 1200px */
 
