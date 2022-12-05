@@ -318,8 +318,8 @@ padding: 5px 15px;
 
 form{
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  flex-direction: row;
+  gap: 8px;
 }
 
   }
